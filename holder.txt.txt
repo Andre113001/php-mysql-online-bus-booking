@@ -1,0 +1,11 @@
+
+                        if ($row['booking_status'] == "REJECTED")
+                        {
+                          ?> 
+                          
+                          <script>
+                            alert("Your booking ID: <?php echo $row['booking_id']?> has been rejected.\nFor reason(s) please check you email.\nThank you")
+                          </script>
+                          
+                          <?php
+                        }
